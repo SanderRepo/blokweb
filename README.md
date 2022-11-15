@@ -19,10 +19,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Sander Oudejans
 
   #### Je startniveau:
-  Blauw
+  Rood
 
   #### Je focus:
-  Surface plane
+  Responsive
  
 </details>
 
