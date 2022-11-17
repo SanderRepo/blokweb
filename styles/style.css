@@ -1,34 +1,162 @@
-/**************/
-/* CSS REMEDY */
-/**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+/* CSS remedy */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-button, summary {
-	cursor: pointer;
+button,
+summary {
+  cursor: pointer;
 }
 
+html {
+  background-color: var(--color-background);
+}
 
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
+/* Custom properties */
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  --color-primary: #02291f;
+  --color-secondary: #fff;
+  --color-background: #000;
+  --color-button-line: #456148;
+
+  --font-title: "Inter", sans-serif;
+  --font-var: "Cormorant", serif;
+  --font-body: "Inter", sans-serif;
+
+  --size-h1: 2.8rem;
+  --size-var: 2.8rem;
+  --size-h2: 2rem;
+  --size-p: 0.9rem;
+
+  --weight-h1: 100;
+  --weight-h2: 100;
+  --weight-h3: 400;
+  --weight-p: 100;
 }
 
+/* Header */
+header {
+  background-color: var(--color-secondary);
+  margin-top: 3rem;
+  width: 80%;
+  margin-left: 10%;
+}
 
+nav {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
 
+nav img {
+  height: 100%;
+}
 
+nav ul li {
+  color: var(--color-secondary);
+  display: none;
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+ul li a::before {
+  display: none;
+}
 
-/* jouw code */
+/* Typography */
+h1 {
+  font-family: var(--font-title);
+  color: var(--color-secondary);
+  font-size: var(--size-h1);
+  font-weight: var(--weight-h1);
+  text-transform: uppercase;
+  letter-spacing: -0.05rem;
+  line-height: 2.2rem;
+}
 
+h2 {
+  font-family: var(--font-title);
+  color: var(--color-secondary);
+  font-size: var(--size-h2);
+  font-weight: var(--weight-h2);
+  text-transform: uppercase;
+  line-height: 1.8rem;
+}
+
+h3 {
+  font-weight: var(--weight-h3);
+  font-family: var(--font-body);
+  color: var(--color-secondary);
+  font-size: var(--size-p);
+  margin-bottom: 1.2rem;
+}
+
+p {
+  font-family: var(--font-body);
+  color: var(--color-secondary);
+  font-size: var(--size-p);
+  font-weight: var(--weight-p);
+  line-height: 1.4rem;
+}
+
+span {
+  font-family: var(--font-var);
+  display: block;
+}
+
+/* Elements */
+main {
+  margin: 0rem 2rem 0rem 2rem;
+}
+
+a {
+  font-family: var(--font-body);
+  color: var(--color-secondary);
+  font-size: 1rem;
+  text-decoration: none;
+  padding-bottom: 3em;
+  display: block;
+}
+
+a::before {
+  display: inline-block;
+  content: "";
+  height: 0.06rem;
+  width: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+  background-color: var(--color-button-line);
+}
+
+img {
+  max-width: 100%;
+}
+
+div a:last-of-type {
+  width: 100%;
+  height: 2.5em;
+  background: red;
+  text-align: center;
+}
+
+div a:last-of-type::before {
+  display: none;
+}
+
+video {
+  height: 100vh;
+  margin: auto;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  object-fit: cover;
+  width: 100%;
+}
+
+section:last-of-type {
+  background: white;
+  width: 100vw;
+  display: block;
+}

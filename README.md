@@ -56,12 +56,16 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 1e werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
+  - Screen reader is langzaam in gebruik.
+  - Veel websites werken niet goed met een screen reader.
+  - Screen reader instellen was even lastig.
+  - De website die ik namaak heeft de optie om het menu over te slaan.
+  - De screenreader leest koppen en broodtekst niet op.
 
   #### Screenreader
-  Hier korte omschrijving (met indien nodig afbeeldingen)
+  De screenreader is in gebruik niet lekker. Doordat je niks ziet is het lastig te bepalen waar de screenreader is. De screenreader leest niet alles op.
 
-  Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+  Dit kan je oplossen door elementen de juiste naamgeving te geeven en images en alt tekst aan toe te voegen.
 
 
   #### Muis en Toetsenbord 
