@@ -1,448 +1,507 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Sander Oudejans" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="images/favicon/apple-touch-icon.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="images/favicon/favicon-32x32.png" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="images/favicon/favicon-16x16.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant:ital@1&family=Inter:wght@100;400;600&display=swap"
-      rel="stylesheet" />
-    <link rel="manifest" href="images/favicon/site.webmanifest" />
-    <title>EIGEN SITE</title>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Sander Oudejans" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png" />
+        <link rel="manifest" href="images/favicon/site.webmanifest" />
+        <title>Audemars Piguet | Swiss Luxury Watches</title>
 
-    <link href="styles/style.css" rel="stylesheet" />
-  </head>
+        <link href="styles/style.css" rel="stylesheet" />
+    </head>
 
-  <body>
-    <video autoplay muted loop>
-      <source src="videos/homepage-video.mp4" type="video/mp4" />
-    </video>
-    <header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#">Watches</a
-            ><img src="images/icons/arrow-right-s-line.svg" alt="Arrow right" />
-          </li>
-          <li>
-            <a href="#">Our World</a
-            ><img src="images/icons/arrow-right-s-line.svg" alt="Arrow right" />
-          </li>
-          <li>
-            <a href="#">Stories</a>
-          </li>
-          <li>
-            <a href="#">Services</a
-            ><img src="images/icons/arrow-right-s-line.svg" alt="Arrow right" />
-          </li>
-          <li>
-            <a href="#">Boutiques</a>
-          </li>
-          <hr />
-          <li>
-            <a href="#">Login or sign up</a
-            ><img src="images/icons/user-line.svg" alt="User icon" />
-          </li>
-          <section>
-            <img
-              src="images/icons/global-line-black.svg"
-              alt="Change language icon" />
-            <p>Change language / currency</p>
-          </section>
-          <section>
-            <img
-              src="images/icons/facebook-circle-line-black.svg"
-              alt="Facebook icon" />
-            <img
-              src="images/icons/instagram-line-black.svg"
-              alt="Instagram icon" />
-            <img
-              src="images/icons/pinterest-line-black.svg"
-              alt="Pinterest icon" />
-            <img src="images/icons/twitter-line-black.svg" alt="Twitter icon" />
-            <img src="images/icons/weibo-fill-black.svg" alt="Weibo icon" />
-            <img src="images/icons/wechat-2-line-black.svg" alt="WeChat icon" />
-            <img src="images/icons/line-line-black.svg" alt="Line icon" />
-            <img src="images/icons/youtube-line-black.svg" alt="Line icon" />
-          </section>
-          <p>&#169; 2022 Audemars Piguet</p>
-        </ul>
-        <button></button>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20">
-          <path fill="none" d="M0 0h24v24H0z" />
-          <path
-            d="M22.72,0H11.7s.02,0,.04,0h-3.77V.53c1.28,0,1.4,.88,.99,1.84-1.64,3.84-5.76,13.54-6.24,14.53-.61,1.24-1.45,2.6-2.73,2.6v.5H4.61v-.5c-1.05,0-1.36-1.43-.84-2.6l1.43-3.24h4.79v3.56c0,2.16-.83,2.27-2,2.27v.5h13.23v-.5c-1.24,0-1.97-.25-1.97-2.45v-5.89h3.67c1.18,0,2.1-.79,2.1-2.6V2.49c0-1.44-.77-2.49-2.28-2.49ZM5.56,12.94L9.99,2.79V12.94H5.56Zm10.78,4.1c0,2.09-.78,2.41-1.74,2.45-.96-.04-1.72-.36-1.74-2.39,0-.94,0-5.13,0-9.13V2.76c0-1.37,.69-2.1,1.74-2.21,1.05,.11,1.74,.84,1.74,2.21v14.28Zm5.84-7.46c0,.54-.21,.83-.63,.83h-2.31V6.03s0-1.01,0-1.01V.74s2.31,0,2.31,0c.43,0,.63,.31,.63,.94v7.89Z" />
-        </svg>
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 24 24"
-          width="24"
-          height="24">
-          <path fill="none" d="M0 0h24v24H0z" />
-          <path
-            d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z" />
-        </svg>
-      </nav>
-    </header>
+    <body>
+        <video autoplay muted loop>
+            <source src="videos/homepage-video.mp4" type="video/mp4" />
+        </video>
+        <header>
+            <!--Geraadpleegde bron voor informatie: https://www.w3schools.com/accessibility/accessibility_skip_links.php-->
+            <a href="#main">Skip to main content</a>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" tabindex="0">Watches</a>
+                        <img src="images/icons/arrow-right-s-line.svg" alt="Enter watches page" />
+                    </li>
+                    <li>
+                        <a href="#" tabindex="0">Our World</a>
+                        <img src="images/icons/arrow-right-s-line.svg" alt="Enter our world page" />
+                    </li>
+                    <li>
+                        <a href="#" tabindex="0">Stories</a>
+                    </li>
+                    <li>
+                        <a href="#" tabindex="0">Services</a>
+                        <img src="images/icons/arrow-right-s-line.svg" alt="Enter services page" />
+                    </li>
+                    <li>
+                        <a href="#" tabindex="0">Boutiques</a>
+                        <hr />
+                    </li>
+                    <li>
+                        <a href="#" tabindex="0">Login or sign up</a>
+                        <img src="images/icons/user-line.svg" alt="User account icon" />
+                    </li>
+                </ul>
 
-    <main>
-      <section>
-        <h1>Royal Oak <span>Perpetual Calendar</span></h1>
-        <a href="#">Discover more</a>
-        <h2>The alliance of <span>innovation and tradition</span></h2>
-        <p>
-          Flying Tourbillon Chronograph, Tourbillon Openworked, Perpetual
-          Calendar, Flying Tourbillon GMT: discover the new complicated watches
-          which embody the brand&apos;s uncompromising approach to
-          craftsmanship. Their highly contemporary and stylised designs
-          highlight the creative possibility of ceramic as age-old techniques
-          merge with cutting-edge technology.
-        </p>
-      </section>
-      <!---carousel van https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734-->
-      <section class="slides-container">
-        <article>
-          <h3>Royal Oak Perpetual Calendar</h3>
-          <p>
-            Entirely dressed in blue, the new Royal Oak Perpetual Calendar in 41
-            mm presents for the first time a case and bracelet fully crafted in
-            blue ceramic. The matching blue Grande Tapisserie dial and subdials
-            further bestow the timepiece with an air of starlit sky.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-upper/carousel-upper-img-1.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
-        <article>
-          <h3>Code 11.59 by Audemars Piguet Flying Tourbillon Chronograph</h3>
-          <p>
-            The two-tone case of the limited edition of 50 pieces interlacing
-            18-carat pink gold and black ceramic is echoed by the architectural
-            movement in black and pink-gold-toned hues that can be admired on
-            both sides of the watch.
-          </p>
-          <img
-            src="images/homepage/carousel-upper/carousel-upper-img-2.jpg"
-            alt="Audemars Piguet watch 2" />
-          <a href="#">Discover more</a>
-        </article>
-        <article>
-          <h3>Royal Oak Concept Flying Tourbillon GMT</h3>
-          <p>
-            The titanium case of the new 44mm Royal Oak Concept Flying
-            Tourbillon GMT iteration is topped off with a green ceramic bezel
-            &#8211; a first in the collection.
-          </p>
-          <img
-            src="images/homepage/carousel-upper/carousel-upper-img-3.jpg"
-            alt="Audemars Piguet watch 3" />
-          <a href="#">Discover more</a>
-        </article>
-        <article>
-          <h3>Code 11.59 by Audemars Piguet Tourbillon Openworked</h3>
-          <p>
-            This limited edition of 50 pieces encompasses a contemporary
-            two-tone case interweaving 18-carat white gold with blue ceramic.
-            The blue openworked bridges and main plate, visible on both sides of
-            the watch, echo the colour of the case middle.
-          </p>
-          <img
-            src="images/homepage/carousel-upper/carousel-upper-img-4.jpg"
-            alt="Audemars Piguet watch 4" />
-          <a href="#">Discover more</a>
-        </article>
-        <article>
-          <h3>Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon</h3>
-          <p>
-            The new timepiece encompasses a stylised two-tone case design
-            interweaving black ceramic with 18-carat white gold. A first in the
-            collection, the black onyx dial, enriched with subtle pink gold
-            accents, adds an elegant touch.
-          </p>
-          <img
-            src="images/homepage/carousel-upper/carousel-upper-img-5.jpg"
-            alt="Audemars Piguet watch 5" />
-          <a href="#">Discover more</a>
-        </article>
-      </section>
+                <section>
+                    <img src="images/icons/global-line-black.svg" alt="Change site language icon" />
+                    <p tabindex="0">Change language / currency</p>
+                </section>
+                <section>
+                    <a href="#">
+                        <img
+                            src="images/icons/facebook-circle-line-black.svg"
+                            alt="Audemars Piguet Facebook page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/instagram-line-black.svg"
+                            alt="Audemars Piguet Instagram pagen" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/pinterest-line-black.svg"
+                            alt="Audemars Piguet Pinterest page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/twitter-line-black.svg"
+                            alt="Audemars Piguet Twitter page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/youtube-line-black.svg"
+                            alt="Audemars Piguet YouTube page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/weibo-fill-black.svg"
+                            alt="Audemars Piguet Weibo page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/wechat-2-line-black.svg"
+                            alt="Audemars Piguet Wechat page" />
+                    </a>
+                    <a href="#">
+                        <img
+                            src="images/icons/line-line-black.svg"
+                            alt="Audemars Piguet Line page" />
+                    </a>
+                    <p>&#169; 2022 Audemars Piguet</p>
+                </section>
+            </nav>
+            <section>
+                <button class="open-menu" aria-label="navigation menu">
+                    <span></span>
+                    <span></span>
+                </button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 20">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M22.72,0H11.7s.02,0,.04,0h-3.77V.53c1.28,0,1.4,.88,.99,1.84-1.64,3.84-5.76,13.54-6.24,14.53-.61,1.24-1.45,2.6-2.73,2.6v.5H4.61v-.5c-1.05,0-1.36-1.43-.84-2.6l1.43-3.24h4.79v3.56c0,2.16-.83,2.27-2,2.27v.5h13.23v-.5c-1.24,0-1.97-.25-1.97-2.45v-5.89h3.67c1.18,0,2.1-.79,2.1-2.6V2.49c0-1.44-.77-2.49-2.28-2.49ZM5.56,12.94L9.99,2.79V12.94H5.56Zm10.78,4.1c0,2.09-.78,2.41-1.74,2.45-.96-.04-1.72-.36-1.74-2.39,0-.94,0-5.13,0-9.13V2.76c0-1.37,.69-2.1,1.74-2.21,1.05,.11,1.74,.84,1.74,2.21v14.28Zm5.84-7.46c0,.54-.21,.83-.63,.83h-2.31V6.03s0-1.01,0-1.01V.74s2.31,0,2.31,0c.43,0,.63,.31,.63,.94v7.89Z" />
+                </svg>
+                <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    height="24"
+                    tabindex="0">
+                    <path fill="none" d="M0 0h24v24H0z" />
+                    <path
+                        d="M18.031 16.617l4.283 4.282-1.415 1.415-4.282-4.283A8.96 8.96 0 0 1 11 20c-4.968 0-9-4.032-9-9s4.032-9 9-9 9 4.032 9 9a8.96 8.96 0 0 1-1.969 5.617zm-2.006-.742A6.977 6.977 0 0 0 18 11c0-3.868-3.133-7-7-7-3.868 0-7 3.132-7 7 0 3.867 3.132 7 7 7a6.977 6.977 0 0 0 4.875-1.975l.15-.15z" />
+                </svg>
+            </section>
+        </header>
 
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-1.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>Royal Oak selfwinding <span>rainbow sets</span></h2>
-        <p>
-          Two unprecedented white gold Royal Oak Selfwinding sets in 37 and 41
-          mm reinterpret the “traditional” rainbow watch to celebrate 50 years
-          of Royal Oak design innovation.
-        </p>
-        <a href="#">Learn more</a>
-      </section>
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-2.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>A new pioneering book<span>written by Bill Prince</span></h2>
-        <p>
-          Audemars Piguet and publishing house Assouline celebrate the Royal
-          Oak&apos;s 50th anniversary with a dedicated book entitled “Royal Oak:
-          From Iconoclast to Icon”. A journey through six decades of
-          groundbreaking art, architecture, fashion, music and culture,
-          paralleling the evolution of the trailblazing Royal Oak.
-        </p>
-        <a href="#">Learn more</a>
-      </section>
+        <main>
+            <section>
+                <h1>
+                    Royal Oak
+                    <span>Perpetual Calendar</span>
+                </h1>
+                <a href="project.html">Discover more</a>
+                <h2>
+                    The alliance of
+                    <span>innovation and tradition</span>
+                </h2>
+                <p>
+                    Flying Tourbillon Chronograph, Tourbillon Openworked, Perpetual Calendar, Flying
+                    Tourbillon GMT: discover the new complicated watches which embody the
+                    brand&apos;s uncompromising approach to craftsmanship. Their highly contemporary
+                    and stylised designs highlight the creative possibility of ceramic as age-old
+                    techniques merge with cutting-edge technology.
+                </p>
+            </section>
+            <!---carousel van https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734-->
+            <section class="slides-container">
+                <article>
+                    <h3>Royal Oak Perpetual Calendar</h3>
+                    <p>
+                        Entirely dressed in blue, the new Royal Oak Perpetual Calendar in 41 mm
+                        presents for the first time a case and bracelet fully crafted in blue
+                        ceramic. The matching blue Grande Tapisserie dial and subdials further
+                        bestow the timepiece with an air of starlit sky.
+                    </p>
+                    <a href="project.html">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-upper/carousel-upper-img-1.jpg"
+                        alt="Audemars Piguet Perpetual Calendar with link bracelet on blue background" />
+                </article>
+                <article>
+                    <h3>Code 11.59 by Audemars Piguet Flying Tourbillon Chronograph</h3>
+                    <p>
+                        The two-tone case of the limited edition of 50 pieces interlacing 18-carat
+                        pink gold and black ceramic is echoed by the architectural movement in black
+                        and pink-gold-toned hues that can be admired on both sides of the watch.
+                    </p>
+                    <img
+                        src="images/homepage/carousel-upper/carousel-upper-img-2.jpg"
+                        alt="Audemars Piguet rose gold openworked with nylon strap on brown background" />
+                    <a href="#">Discover more</a>
+                </article>
+                <article>
+                    <h3>Royal Oak Concept Flying Tourbillon GMT</h3>
+                    <p>
+                        The titanium case of the new 44mm Royal Oak Concept Flying Tourbillon GMT
+                        iteration is topped off with a green ceramic bezel &#8211; a first in the
+                        collection.
+                    </p>
+                    <img
+                        src="images/homepage/carousel-upper/carousel-upper-img-3.jpg"
+                        alt="Audemars Piguet Royal Oak offshore openworked with rubber strap on green background" />
+                    <a href="#">Discover more</a>
+                </article>
+                <article>
+                    <h3>Code 11.59 by Audemars Piguet Tourbillon Openworked</h3>
+                    <p>
+                        This limited edition of 50 pieces encompasses a contemporary two-tone case
+                        interweaving 18-carat white gold with blue ceramic. The blue openworked
+                        bridges and main plate, visible on both sides of the watch, echo the colour
+                        of the case middle.
+                    </p>
+                    <img
+                        src="images/homepage/carousel-upper/carousel-upper-img-4.jpg"
+                        alt="Audemars Piguet watch with blue dial and nylon strap" />
+                    <a href="#">Discover more</a>
+                </article>
+                <article>
+                    <h3>Code 11.59 by Audemars Piguet Selfwinding Flying Tourbillon</h3>
+                    <p>
+                        The new timepiece encompasses a stylised two-tone case design interweaving
+                        black ceramic with 18-carat white gold. A first in the collection, the black
+                        onyx dial, enriched with subtle pink gold accents, adds an elegant touch.
+                    </p>
+                    <img
+                        src="images/homepage/carousel-upper/carousel-upper-img-5.jpg"
+                        alt="Audemars Piguet Tourbillon black dial with nylon strap on brown background" />
+                    <a href="#">Discover more</a>
+                </article>
+            </section>
 
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-3.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>
-          Andreas Angelidakis :<span
-            >center for the critical appreciation of antiquity</span
-          >
-        </h2>
-        <p>
-          Artist Andreas Angelidakis&#39;s first solo exhibition in Paris,
-          <i>Center for the Critical Appreciation of Antiquity</i> (2022), is
-          now on view with free admission at the historic Espace Niemeyer until
-          30 October 2022.
-        </p>
-        <a href="#">Learn more</a>
-      </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-1.jpg"
+                    alt="10 Royal Oaks in rainbow colors" />
+                <h2>
+                    Royal Oak selfwinding
+                    <span>rainbow sets</span>
+                </h2>
+                <p>
+                    Two unprecedented white gold Royal Oak Selfwinding sets in 37 and 41 mm
+                    reinterpret the “traditional” rainbow watch to celebrate 50 years of Royal Oak
+                    design innovation.
+                </p>
+                <a href="#">Learn more</a>
+            </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-2.jpg"
+                    alt="Two books about the Royal Oak" />
+                <h2>
+                    A new pioneering book
+                    <span>written by Bill Prince</span>
+                </h2>
+                <p>
+                    Audemars Piguet and publishing house Assouline celebrate the Royal Oak&apos;s
+                    50th anniversary with a dedicated book entitled “Royal Oak: From Iconoclast to
+                    Icon”. A journey through six decades of groundbreaking art, architecture,
+                    fashion, music and culture, paralleling the evolution of the trailblazing Royal
+                    Oak.
+                </p>
+                <a href="#">Learn more</a>
+            </section>
 
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-4.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>ROYAL OAK COLLECTION<span>CELEBRATING 50 YEARS</span></h2>
-        <p>
-          Building on the past, the 2022 offering takes the Royal Oak to new
-          limits.
-        </p>
-        <a href="#">Discover more</a>
-      </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-3.jpg"
+                    alt="Watch exhibition in Paris" />
+                <h2>
+                    Andreas Angelidakis :
+                    <span>center for the critical appreciation of antiquity</span>
+                </h2>
+                <p>
+                    Artist Andreas Angelidakis&#39;s first solo exhibition in Paris,
+                    <i>Center for the Critical Appreciation of Antiquity</i>
+                    (2022), is now on view with free admission at the historic Espace Niemeyer until
+                    30 October 2022.
+                </p>
+                <a href="#">Learn more</a>
+            </section>
 
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-5.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>AP CHRONICLES: <span>DIVE INTO THE ROYAL OAK'S HISTORY</span></h2>
-        <p>
-          Travel back in time and immerse yourself into the Royal Oak's universe
-          through enriched articles, technical sheets of models and calibres as
-          well as exclusive anecdotes and archival footages uncovered by our
-          Heritage team.
-        </p>
-        <a href="#">Explore AP Chronicles</a>
-      </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-4.jpg"
+                    alt="50 years of Royal Oak with ourwork in the center" />
+                <h2>
+                    ROYAL OAK COLLECTION
+                    <span>CELEBRATING 50 YEARS</span>
+                </h2>
+                <p>Building on the past, the 2022 offering takes the Royal Oak to new limits.</p>
+                <a href="#">Discover more</a>
+            </section>
 
-      <section>
-        <img
-          src="images/homepage/highlights/homepage-highlight-6.png"
-          alt="Royal Oak rainbow sets" />
-        <h2>Musée Atelier <span>Audemars Piguet</span></h2>
-        <p>
-          Experience our heritage, craftsmanship and connection to the world in
-          the Musée Atelier Audemars Piguet which pays tribute to the
-          craftspeople who have made what Audemars Piguet is today, generation
-          after generation.
-        </p>
-        <a href="#">Discover more</a>
-      </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-5.jpg"
+                    alt="Multiple Royal Oak magazines and books" />
+                <h2>
+                    AP CHRONICLES:
+                    <span>DIVE INTO THE ROYAL OAK'S HISTORY</span>
+                </h2>
+                <p>
+                    Travel back in time and immerse yourself into the Royal Oak's universe through
+                    enriched articles, technical sheets of models and calibres as well as exclusive
+                    anecdotes and archival footages uncovered by our Heritage team.
+                </p>
+                <a href="#">Explore AP Chronicles</a>
+            </section>
 
-      <h2>Our <span>collections</span></h2>
-      <section class="slides-container">
-        <article>
-          <a href="#">View collection</a>
-          <img
-            src="images/homepage/carousel-lower/carousel-lower-img-1.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
-        <article>
-          <a href="#">View collection</a>
-          <img
-            src="images/homepage/carousel-lower/carousel-lower-img-2.jpg"
-            alt="Audemars Piguet watch 2" />
-        </article>
-        <article>
-          <a href="#">View collection</a>
-          <img
-            src="images/homepage/carousel-lower/carousel-lower-img-3.jpg"
-            alt="Audemars Piguet watch 3" />
-        </article>
-        <article>
-          <a href="#">View collection</a>
-          <img
-            src="images/homepage/carousel-lower/carousel-lower-img-4.jpg"
-            alt="Audemars Piguet watch 4" />
-        </article>
-      </section>
+            <section>
+                <img
+                    src="images/homepage/highlights/homepage-highlight-6.jpg"
+                    alt="Musée Atelier experience center" />
+                <h2>
+                    Musée Atelier
+                    <span>Audemars Piguet</span>
+                </h2>
+                <p>
+                    Experience our heritage, craftsmanship and connection to the world in the Musée
+                    Atelier Audemars Piguet which pays tribute to the craftspeople who have made
+                    what Audemars Piguet is today, generation after generation.
+                </p>
+                <a href="#">Discover more</a>
+            </section>
 
-      <h2>Discover the passion <span>Behind the craft</span></h2>
-      <section class="slides-container">
-        <article>
-          <h3>Born in le brassus</h3>
-          <p>
-            It is in the heart of the Vallée de Joux, a region that beats to the
-            tune of complicated watch mechanisms, that everything started for
-            Audemars Piguet in 1875.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-lower-2/carousel-lower-2-img-1.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
+            <h2>
+                Our
+                <span>collections</span>
+            </h2>
+            <section class="slides-container">
+                <article>
+                    <a href="#">View collection</a>
+                    <img
+                        src="images/homepage/carousel-lower/carousel-lower-img-1.jpg"
+                        alt="Audemars Piguet code 11 59 collection" />
+                </article>
+                <article>
+                    <a href="project.html">View collection</a>
+                    <img
+                        src="images/homepage/carousel-lower/carousel-lower-img-2.jpg"
+                        alt="Audemars Piguet Royal oak collection" />
+                </article>
+                <article>
+                    <a href="#">View collection</a>
+                    <img
+                        src="images/homepage/carousel-lower/carousel-lower-img-3.jpg"
+                        alt="Audemars Piguet Royal Oak Offshore collection" />
+                </article>
+                <article>
+                    <a href="#">View collection</a>
+                    <img
+                        src="images/homepage/carousel-lower/carousel-lower-img-4.jpg"
+                        alt="Audemars Piguet Royal Oak concept collection" />
+                </article>
+            </section>
 
-        <article>
-          <h3>Our Savoir-Faire</h3>
-          <p>
-            Since 1875, Audemars Piguet has perpetuated its founders&apos;
-            ancestral savoir-faire in forward-thinking ways, consistently
-            pushing further the limits of the craft and anticipating
-            society&apos;s ever-changing needs.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-lower-2/carousel-lower-2-img-2.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
+            <h2>
+                Discover the passion
+                <span>Behind the craft</span>
+            </h2>
+            <section class="slides-container">
+                <article>
+                    <h3>Born in le brassus</h3>
+                    <p>
+                        It is in the heart of the Vallée de Joux, a region that beats to the tune of
+                        complicated watch mechanisms, that everything started for Audemars Piguet in
+                        1875.
+                    </p>
+                    <a href="#">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-lower-2/carousel-lower-2-img-1.jpg"
+                        alt="Rocky image le brassus" />
+                </article>
 
-        <article>
-          <h3>Audemars Piguet & Art</h3>
-          <p>
-            Audemars Piguet Contemporary commissions international artists to
-            create contemporary artworks, fostering a global community of
-            creators.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-lower-2/carousel-lower-2-img-3.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
+                <article>
+                    <h3>Our Savoir-Faire</h3>
+                    <p>
+                        Since 1875, Audemars Piguet has perpetuated its founders&apos; ancestral
+                        savoir-faire in forward-thinking ways, consistently pushing further the
+                        limits of the craft and anticipating society&apos;s ever-changing needs.
+                    </p>
+                    <a href="#">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-lower-2/carousel-lower-2-img-2.jpg"
+                        alt="Watchmaker working on calibre" />
+                </article>
 
-        <article>
-          <h3>Audemars Piguet & Music</h3>
-          <p>
-            Audemars Piguet shares its passion for music and excellence,
-            bringing people together through the language of emotions.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-lower-2/carousel-lower-2-img-4.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
+                <article>
+                    <h3>Audemars Piguet & Art</h3>
+                    <p>
+                        Audemars Piguet Contemporary commissions international artists to create
+                        contemporary artworks, fostering a global community of creators.
+                    </p>
+                    <a href="#">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-lower-2/carousel-lower-2-img-3.jpg"
+                        alt="Audemars Piguet passion for art and inspiration" />
+                </article>
 
-        <article>
-          <h3>Audemars Piguet & Golf</h3>
-          <p>
-            Whether on a green or in the universe of Haute Horlogerie, it is
-            always a question of precision and elegance, the beauty of both
-            gesture and performance.
-          </p>
-          <a href="#">Discover more</a>
-          <img
-            src="images/homepage/carousel-lower-2/carousel-lower-2-img-5.jpg"
-            alt="Audemars Piguet watch 1" />
-        </article>
-      </section>
+                <article>
+                    <h3>Audemars Piguet & Music</h3>
+                    <p>
+                        Audemars Piguet shares its passion for music and excellence, bringing people
+                        together through the language of emotions.
+                    </p>
+                    <a href="#">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-lower-2/carousel-lower-2-img-4.jpg"
+                        alt="Audemars Piguet passion for music and inspiration" />
+                </article>
 
-      <section>
-        <article>
-          <img src="images/homepage/boutique.png" alt="AP boutique" />
-          <h2>Find a <span>boutique</span></h2>
-          <a href="#">Explore all Boutiques</a>
-          <h2>Get the<span>latest news</span></h2>
-          <p>
-            Be the first to reveice the latest news on our brand, products and
-            upcoming events.
-          </p>
-          <a href="#">Subscribe</a>
-        </article>
-      </section>
-    </main>
+                <article>
+                    <h3>Audemars Piguet & Golf</h3>
+                    <p>
+                        Whether on a green or in the universe of Haute Horlogerie, it is always a
+                        question of precision and elegance, the beauty of both gesture and
+                        performance.
+                    </p>
+                    <a href="#">Discover more</a>
+                    <img
+                        src="images/homepage/carousel-lower-2/carousel-lower-2-img-5.jpg"
+                        alt="Audemars Piguet working with golfers" />
+                </article>
+            </section>
 
-    <footer>
-      <button type="button">
-        <img src="images/icons/global-line.svg" alt="Change language icon" />
-        <p>Change language / currency</p>
-      </button>
-      <details>
-        <summary>Watches</summary>
-        <ul>
-          <li><a href="#">All Watches</a></li>
-          <li><a href="#">Our Collection</a></li>
-          <li><a href="#">New Releases</a></li>
-          <li><a href="#">Find a Boutique</a></li>
-        </ul>
-      </details>
-      <details>
-        <summary>Our World</summary>
-        <ul>
-          <li><a href="#">Born in Le Brassus</a></li>
-          <li><a href="#">Musée Atelier</a></li>
-          <li><a href="#">AP Chronicles</a></li>
-          <li><a href="#">Stay connected</a></li>
-        </ul>
-      </details>
-      <details>
-        <summary>Details</summary>
-        <ul>
-          <li><a href="#">All services</a></li>
-          <li><a href="#">Extend your warranty</a></li>
-          <li><a href="#">Contact us</a></li>
-          <li><a href="#">FAQ</a></li>
-        </ul>
-      </details>
-      <details>
-        <summary>Company</summary>
-        <ul>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Foundation</a></li>
-          <li><a href="#">Commitments</a></li>
-        </ul>
-      </details>
-      <section>
-        <img src="images/icons/facebook-circle-line.svg" alt="Facebook icon" />
-        <img src="images/icons/instagram-line.svg" alt="Instagram icon" />
-        <img src="images/icons/pinterest-line.svg" alt="Pinterest icon" />
-        <img src="images/icons/twitter-line.svg" alt="Twitter icon" />
-        <img src="images/icons/youtube-line.svg" alt="Line icon" />
-        <img src="images/icons/weibo-fill.svg" alt="Weibo icon" />
-        <img src="images/icons/wechat-2-line.svg" alt="WeChat icon" />
-        <img src="images/icons/line-line.svg" alt="Line icon" />
-      </section>
-      <p>&#169; 2022 Audemars Piguet</p>
-      <nav>
-        <ul>
-          <li><a href="#">Terms of Use</a></li>
-          <li><a href="#">Privacy Notice</a></li>
-          <li><a href="#">Cookie Policy</a></li>
-          <li><a href="#">Accessibility</a></li>
-        </ul>
-        <img
-          src="images/icons/accessibility-icon.svg"
-          alt="accessibility icon" />
-      </nav>
-    </footer>
-    <script defer src="scripts/script.js"></script>
-  </body>
+            <section>
+                <article>
+                    <img src="images/homepage/boutique.jpg" alt="Audemars Piguet own boutique" />
+                    <h2>
+                        Find a
+                        <span>boutique</span>
+                    </h2>
+                    <a href="#">Explore all Boutiques</a>
+                    <h2>
+                        Get the
+                        <span>latest news</span>
+                    </h2>
+                    <p>
+                        Be the first to reveice the latest news on our brand, products and upcoming
+                        events.
+                    </p>
+                    <a href="#">Subscribe</a>
+                </article>
+            </section>
+        </main>
+
+        <footer>
+            <button type="button" aria-label="Change site language">
+                Change language / currency
+                <img src="images/icons/global-line.svg" alt="Change site language icon" />
+            </button>
+            <details>
+                <summary>Watches</summary>
+                <ul>
+                    <li><a href="#">All Watches</a></li>
+                    <li><a href="#">Our Collection</a></li>
+                    <li><a href="#">New Releases</a></li>
+                    <li><a href="#">Find a Boutique</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Our World</summary>
+                <ul>
+                    <li><a href="#">Born in Le Brassus</a></li>
+                    <li><a href="#">Musée Atelier</a></li>
+                    <li><a href="#">AP Chronicles</a></li>
+                    <li><a href="#">Stay connected</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Details</summary>
+                <ul>
+                    <li><a href="#">All services</a></li>
+                    <li><a href="#">Extend your warranty</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">FAQ</a></li>
+                </ul>
+            </details>
+            <details>
+                <summary>Company</summary>
+                <ul>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Commitments</a></li>
+                </ul>
+            </details>
+            <section>
+                <a href="#">
+                    <img
+                        src="images/icons/facebook-circle-line.svg"
+                        alt="Audemars Piguet Facebook page" />
+                </a>
+                <a href="#">
+                    <img
+                        src="images/icons/instagram-line.svg"
+                        alt="Audemars Piguet Instagram pagen" />
+                </a>
+                <a href="#">
+                    <img
+                        src="images/icons/pinterest-line.svg"
+                        alt="Audemars Piguet Pinterest page" />
+                </a>
+                <a href="#">
+                    <img src="images/icons/twitter-line.svg" alt="Audemars Piguet Twitter page" />
+                </a>
+                <a href="#">
+                    <img src="images/icons/youtube-line.svg" alt="Audemars Piguet YouTube page" />
+                </a>
+                <a href="#">
+                    <img src="images/icons/weibo-fill.svg" alt="Audemars Piguet Weibo page" />
+                </a>
+                <a href="#">
+                    <img src="images/icons/wechat-2-line.svg" alt="Audemars Piguet Wechat page" />
+                </a>
+                <a href="#">
+                    <img src="images/icons/line-line.svg" alt="Audemars Piguet Line page" />
+                </a>
+            </section>
+            <p>&#169; 2022 Audemars Piguet</p>
+            <nav>
+                <ul>
+                    <li><a href="#">Terms of Use</a></li>
+                    <li><a href="#">Privacy Notice</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Accessibility</a></li>
+                </ul>
+                <img src="images/icons/accessibility-icon.svg" alt="Site accessibility icon" />
+            </nav>
+        </footer>
+        <script defer src="scripts/script.js"></script>
+    </body>
 </html>

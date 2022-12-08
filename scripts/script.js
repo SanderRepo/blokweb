@@ -9,31 +9,90 @@ main.style.top = headerHeight + "px";
 let lastScroll = 0;
 
 window.addEventListener("scroll", () => {
-  let currentScroll = window.pageYOffset;
+    let currentScroll = window.pageYOffset;
 
-  if (currentScroll - lastScroll > 0) {
-    header.classList.add("scroll-down");
-    header.classList.remove("scroll-up");
-  } else {
-    header.classList.add("scroll-up");
-    header.classList.remove("scroll-down");
-  }
+    if (currentScroll - lastScroll > 0) {
+        header.classList.add("scroll-down");
+        header.classList.remove("scroll-up");
+    } else {
+        header.classList.add("scroll-up");
+        header.classList.remove("scroll-down");
+    }
 
-  lastScroll = currentScroll;
+    lastScroll = currentScroll;
 });
 
-//Eigen code
+//Eigen code - Openen van menu en kleur veranderen
 
-const ul = document.querySelector("ul");
-const button = document.querySelector("button");
-const svg = document.querySelector('svg');
+const nav = document.querySelector("nav");
+const hamburgericon = document.querySelector(".open-menu");
 
 function togglemenu() {
-  ul.classList.toggle("slide-in-top");
-  ul.classList.toggle("open");
-  svg.classList.toggle("color-black");
-  svg.classList.toggle("color-black-2");
-
+    nav.classList.toggle("slide-in-top");
+    nav.classList.toggle("open");
 }
 
-button.addEventListener("click", togglemenu);
+hamburgericon.addEventListener("click", togglemenu);
+
+document
+    .querySelectorAll("svg, header span")
+    .forEach((item) =>
+        hamburgericon.addEventListener("click", (togglemenu) =>
+            item.classList.toggle("color-black")
+        )
+    );
+
+//Product pagina: drie buttons (show / hide)
+const blok1 = document.querySelector(".project-page article:nth-of-type(1)");
+const blok2 = document.querySelector(".project-page article:nth-of-type(2)");
+const blok3 = document.querySelector(".project-page article:nth-of-type(3)");
+
+const knop1 = document.querySelector(
+    ".project-page > section:nth-of-type(6) li:nth-of-type(1) button"
+);
+const knop2 = document.querySelector(
+    ".project-page > section:nth-of-type(6) li:nth-of-type(2) button"
+);
+const knop3 = document.querySelector(
+    ".project-page > section:nth-of-type(6) li:nth-of-type(3) button"
+);
+
+function toggleblok1() {
+    blok3.classList.add("hide-article");
+    blok2.classList.add("hide-article");
+    blok1.classList.remove("hide-article");
+    blok1.classList.add("show-article");
+}
+function toggleblok2() {
+    blok1.classList.add("hide-article");
+    blok3.classList.add("hide-article");
+    blok2.classList.remove("hide-article");
+    blok2.classList.add("show-article");
+}
+function toggleblok3() {
+    blok2.classList.add("hide-article");
+    blok1.classList.add("hide-article");
+    blok3.classList.remove("hide-article");
+    blok3.classList.add("show-article");
+}
+
+knop1.addEventListener("click", toggleblok1);
+knop2.addEventListener("click", toggleblok2);
+knop3.addEventListener("click", toggleblok3);
+
+//Product pagina: switch calibre
+const calibre1 = document.querySelector(".project-page article:nth-of-type(2) img:first-of-type");
+const calibre2 = document.querySelector(".project-page article:nth-of-type(2) img:last-of-type");
+
+const calibreknop = document.querySelector(".project-page article:nth-of-type(2) button");
+
+//Bron voor img src veranderen: https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab2
+function togglecalibre() {
+    if (calibre1.src.match("images/project-page/watch-img-7.png")) {
+        calibre1.src = "images/project-page/watch-img-8.png";
+    } else {
+        calibre2.src = "images/project-page/watch-img-7.png";
+    }
+}
+
+calibreknop.addEventListener("click", togglecalibre);
