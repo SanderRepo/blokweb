@@ -54,11 +54,11 @@ Productpagina
 
 ### Bevindingen
 
-- Screen reader is langzaam in gebruik.
-- Veel websites werken niet goed met een screen reader.
-- Screen reader instellen was even lastig.
-- De website die ik namaak heeft de optie om het menu over te slaan.
-- De screenreader leest koppen en broodtekst niet op.
+-   Screen reader is langzaam in gebruik.
+-   Veel websites werken niet goed met een screen reader.
+-   Screen reader instellen was even lastig.
+-   De website die ik namaak heeft de optie om het menu over te slaan.
+-   De screenreader leest koppen en broodtekst niet op.
 
 #### Screenreader
 
@@ -105,20 +105,17 @@ Uiteindelijk heb ik de carousel zonder js gemaakt. De hele homepage is op mobiel
 
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| -------------- | ------------------ | ------------ | ---------------- |
-| Hoe maak je    | en dit             | en ik dit    | en dan ik dat    |
-| responsive?    | dit als er tijd is | nog een punt | dit wil ik zeker |
-|                | ...                | ...          | ...              |
+| student 1   | student 2          | student 3    | student 4        |
+| ----------- | ------------------ | ------------ | ---------------- |
+| Hoe maak je | en dit             | en ik dit    | en dan ik dat    |
+| responsive? | dit als er tijd is | nog een punt | dit wil ik zeker |
+|             | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+-   Ik moet vooral werken aan het maken van de tweede pagina. Verder gaat alles eigenlijk goed!
 
 </details>
 
@@ -145,10 +142,7 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+-   Ik moet de laatste puntjes op de i zetten. In het menu moet ik nog wat iconen plaatsen, semantisch correct maken en de website op HTML en CSS valideren.
 
 </details>
 
@@ -163,27 +157,44 @@ Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er v
 
 #### Screenreader
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+De screenreader werkt op zowel het origineel als mijn pagina hetzelfde. Alleen mijn menu begint eerst terwijl deze nog niet open is. Het werken met een screenreader is niet fijn, vooral doordat je heel veel linkjes op de pagina hebt. Ik merk wel dat de screenreader alleen links voorleest.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Ik maak gebruik van semantisch correcte code waardoor de screenreader weet wat een element is.
+
+Dit kan ik oplossen door tabindex nog toe te voegen.
 
 #### Muis en Toetsenbord
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Met toetsenbord en muis is de pagina goed te bezoeken.
 
 #### Motoriek (shocks, elastiekjes)
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Elektrische simulator: Het kost meer moeite om door de pagina te navigeren. Ook had ik een moment waarbij ik iets aanklikte wat ik niet wilde. Vooral op stand 1 was het effect het ergste.
 
 #### Visueel (brillen, contrast, kleurenblind, dark/light).
 
-Hier korte omschrijving (met indien nodig afbeeldingen)
+Peripheral field loss: Met deze bril kan je nog steeds de website zien, maar het is lastig als je je hoofd stil houd.
 
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig afbeeldingen)
+Low contrast: Door het hoge contrast op mijn website (wit op zwart) is de content nog goed te zien. Alles heeft wel een soort gloed eromheen.
+
+Combined loss / diabetic eye disease: Met deze bril is prima te kijken, alleen de dunne lijstjes zijn niet zo goed te zien.
+
+Blur / glare: Je kan tekst op de pagina niet lezen, omdat het te klein is. Alles ziet dubbel.
+
+Color (geel): Het is alsof je door een zonnebril kijkt. De pagina is prima te bekijken.
+
+Hemifield loss: Door mijn rechteroog zie ik niks, maar met mijn linkeroog wel. Het lijkt alsof mijn hersenen de zwarte blokken weghalen waardoor ik geen last heb van deze 'beperking'.
+
+Central field loss: Als je recht naar voren kijkt, zie je minder goed. Vooral tekst is lastig leesbaar. Je kan je hoofd draaien.
+
+OPLOSSING:
+Het contrast van kleine elementen kunnen verhogen zal al helpen om alle elementen zichtbaar te maken. Het lettertype vergroten zou ook een goede optie zijn.
+
+#### Aandacht en concentratie
+
+Met de ballon is het navigeren het lastigste van alle toegankelijksheidstesten. Ik kwam het moeilijkste door mijn pagina heen.
+
+Ik kan nog een aanpassing maken in de witruimte van mijn pagina.
 
 </details>
 
@@ -210,10 +221,10 @@ samen met je groepje opstellen
 
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+-   punt 1
+-   punt 2
+-   nog een punt
+-   ...
 
 </details>
 
@@ -244,10 +255,33 @@ Korte omschrijving met plaatjes
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+<h2>HTML:</h2>
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://www.w3schools.com/accessibility/accessibility_skip_links.php
+Voor het skippen van de navigatie met tab
 
+<h2>CSS:</h2>
+
+1. https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734
+
+Het maken van de carousel. Uiteindelijk heb ik geen javascript gebruikt en de carousel puur met css gemaakt.
+
+2. https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+Ik kreeg het even niet voor elkaar om de tekst in de button verticaal centreren. Heb padding toegevoegd aan button i.p.v. hoogte en breedte.
+
+3. https://stackoverflow.com/questions/37815450/flex-items-ignoring-width
+Uitleg over flex-wrap om social media iconen juist te positioneren.
+
+4. summary & details
+Hulp van de studentassistent om een simpel uitklapmenu te maken met navigatie voor de footer.
+
+5. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
+Informatie voor het gebruik van @media voor het veranderen van elementen wanneer de gebruiker het contrast verhoogd.
+
+<h2>Javascript:</h2>
+1. https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab2
+Op de projectpagina moest een afbeelding vervangen worden wanneer de gebruiker op een button klikt. Dit heb ik ooit al eens bij inleiding programmeren gedaan, maar dat was ik natuurlijk al weer vergeten...
+
+2. https://github.com/amdhanwate/reveal-unreveal-on-scroll/blob/main/main.js
+Deze code is voor het vertonen en verwijnen van het menu wanneer de gebruiker scrollt. Deze code heb ik volledig gebruikt.
 </details>
