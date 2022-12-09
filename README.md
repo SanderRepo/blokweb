@@ -257,38 +257,49 @@ Korte omschrijving met plaatjes
 
 <h2>HTML:</h2>
 
-1. https://www.w3schools.com/accessibility/accessibility_skip_links.php
+https://www.w3schools.com/accessibility/accessibility_skip_links.php
 
 Voor het skippen van de navigatie met tab
 
 <h2>CSS:</h2>
 
-1. https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734
+https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734
 
 Het maken van de carousel. Uiteindelijk heb ik geen javascript gebruikt en de carousel puur met css gemaakt.
 
-2. https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
+<hr>
+
+https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html
 
 Ik kreeg het even niet voor elkaar om de tekst in de button verticaal centreren. Heb padding toegevoegd aan button i.p.v. hoogte en breedte.
 
-3. https://stackoverflow.com/questions/37815450/flex-items-ignoring-width
+<hr>
+
+https://stackoverflow.com/questions/37815450/flex-items-ignoring-width
 
 Uitleg over flex-wrap om social media iconen juist te positioneren.
 
-4. summary & details
+<hr>
+
+summary & details
 
 Hulp van de studentassistent om een simpel uitklapmenu te maken met navigatie voor de footer.
 
-5. https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
+<hr>
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
 
 Informatie voor het gebruik van @media voor het veranderen van elementen wanneer de gebruiker het contrast verhoogd.
 
 <h2>Javascript:</h2>
-1. https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab2
+https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab2
 
 Op de projectpagina moest een afbeelding vervangen worden wanneer de gebruiker op een button klikt. Dit heb ik ooit al eens bij inleiding programmeren gedaan, maar dat was ik natuurlijk al weer vergeten...
 
-2. https://github.com/amdhanwate/reveal-unreveal-on-scroll/blob/main/main.js
+<hr>
+
+https://github.com/amdhanwate/reveal-unreveal-on-scroll/blob/main/main.js
 
 Deze code is voor het vertonen en verwijnen van het menu wanneer de gebruiker scrollt. Deze code heb ik volledig gebruikt.
+
 </details>
