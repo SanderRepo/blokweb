@@ -258,6 +258,7 @@ Korte omschrijving met plaatjes
 <h2>HTML:</h2>
 
 1. https://www.w3schools.com/accessibility/accessibility_skip_links.php
+
 Voor het skippen van de navigatie met tab
 
 <h2>CSS:</h2>
