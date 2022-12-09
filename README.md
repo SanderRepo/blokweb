@@ -37,12 +37,14 @@ https://www.audemarspiguet.com/
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-Homepage  
+Homepage
+
  <img src="readme-images/kickoff-1.png" width="375px" alt="homepage van Audemars Piguet op mobiel">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 Productpagina
+
 <img src="readme-images/kickoff-2.png" width="375px" alt="Royal Oak productpagina van Audemars Piguet op mobiel">
 
 </details>
