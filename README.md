@@ -281,9 +281,9 @@ Uitleg over flex-wrap om social media iconen juist te positioneren.
 
 <hr>
 
-summary & details
+https://www.w3schools.com/tags/tag_summary.asp
 
-Hulp van de studentassistent om een simpel uitklapmenu te maken met navigatie voor de footer.
+Hulp van de studentassistent om een simpel uitklapmenu te maken met navigatie voor de footer. Daarnaast W3schools gebruikt :O
 
 <hr>
 
