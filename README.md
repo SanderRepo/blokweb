@@ -155,7 +155,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 
-Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+Ik heb de toegankelijkheid op mijn site verbeterd door tabindex toe te passsen. Hierdoor kon ik makkelijk door de elementen navigeren. Verdere bevindingen: interessante les, ook om die verschillende brillen te testen.
 
 #### Screenreader
 
@@ -237,19 +237,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/eindgesprek-1.png" width="375px" alt="uitomst opdracht 1">
+
+Ik heb mijn best gedaan om de site zo goed mogelijk na te maken.
 
 ### Dit ging goed/Heb ik geleerd:
 
-Korte omschrijving met plaatjes
+Ik heb tijdens dit project ontzettend veel dingen geleerd. Vooral het aanspreken van elementen met pseudoclasses. Dit heb ik veel toegepast en heb geen enkele div gebruikt, iets wat ik hiervoor niet voor elkaar kreeg.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+Verder heb ik vooral binnen CSS nieuwe dingen geleerd, lekker geoefend met flexbox en posititonering. 
 
 ### Dit was lastig/Is niet gelukt:
 
-Korte omschrijving met plaatjes
+Ik vind positionering in CSS nog steeds lastig. Ik loop vaak te vechten met positionering. Daarnaast vind ik Javascript ook nog een lastige taal. Vooral achterhalen waarom iets niet werkt is tijdrovend.
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+Het is mij niet gelukt om de slider zoals het origineel te maken. Bij de originele pagina verplaatst het blok per element netjes tot 'ie perfect in beeld staat. Mijn versie kan overal stoppen en positioneert niet automatisch in het midden.
 </details>
 
 ## Bronnenlijst
@@ -257,13 +259,13 @@ Korte omschrijving met plaatjes
 <details open>
   <summary>continu bijhouden terwijl je werkt</summary>
 
-<h2>HTML:</h2>
+## HTML:
 
 https://www.w3schools.com/accessibility/accessibility_skip_links.php
 
 Voor het skippen van de navigatie met tab
 
-<h2>CSS:</h2>
+## CSS:
 
 https://webdesign.tutsplus.com/tutorials/how-to-build-a-simple-carousel-with-vanilla-javascript--cms-41734
 
@@ -293,7 +295,7 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast
 
 Informatie voor het gebruik van @media voor het veranderen van elementen wanneer de gebruiker het contrast verhoogd.
 
-<h2>Javascript:</h2>
+## Javascript:
 https://khaalipaper.com/javascript/javascript-change-image-onclick-event.php#parentHorizontalTab2
 
 Op de projectpagina moest een afbeelding vervangen worden wanneer de gebruiker op een button klikt. Dit heb ik ooit al eens bij inleiding programmeren gedaan, maar dat was ik natuurlijk al weer vergeten...

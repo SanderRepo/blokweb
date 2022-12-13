@@ -325,9 +325,11 @@ nav ul button:last-of-type {
     border: 1px solid var(--color-background);
     font-family: var(--font-button-bold);
 }
+
 /*************************/
 /* Typography */
 /*************************/
+
 h1 {
     font-family: var(--font-title);
     color: var(--color-secondary);
@@ -388,6 +390,7 @@ span {
 /*************************/
 /* Elements */
 /*************************/
+
 main {
     margin: 0rem 1.4rem 0rem 1.4rem;
 }
@@ -936,6 +939,7 @@ footer section:last-of-type a {
 /*************************/
 /* Carousel homepage*/
 /*************************/
+
 .slides-container {
     height: 110vh;
     width: 100%;
@@ -986,6 +990,7 @@ footer section:last-of-type a {
 /*************************/
 /* Increase contrast */
 /*************************/
+
 @media (prefers-contrast: more) {
     :root {
         --color-primary: #001b0d;
